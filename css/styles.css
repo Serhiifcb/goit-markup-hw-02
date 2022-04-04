@@ -2,6 +2,9 @@
     --bluecolor: #2196f3;
     --whitecolor: #ffffff;
     --maincolor: #212121;
+    --navcontactcolor: #757575;
+    --backgroundcolordark: #2f303a;
+    --backgroundcolorlight: #f5f4fa;
 }
 body {
     font-family: 'Roboto', 'Helvetica', sans-serif;
@@ -10,6 +13,11 @@ body {
 .maintitle {
     font-family: 'Raleway', sans-serif;
     color: var(--bluecolor);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .buttonmain {
     cursor: pointer;
@@ -17,18 +25,35 @@ body {
     color: var(--whitecolor);
     width: 200px;
     height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .hero {
-    background: #2f303a;
+    background: var(--backgroundcolordark);
 }
 .herotitle {
     color: var(--whitecolor);
     text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
 }
 .filtrbutton {
     cursor: pointer;
     background-color: #f5f4fa;
     color: var(--maincolor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.61;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border-color: #ffffff;
+    border-style: hidden;
 }
 .filtrbutton:hover, .filtrbutton:focus {
     cursor: pointer;
@@ -37,4 +62,97 @@ body {
 }
 .titletextcolor {
     color: var(--maincolor);
+}
+.navigationlink {
+    color: var(--maincolor);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.navigationlink:hover, .navigationlink:focus, .navigationcontact:hover, .navigationcontact:focus {
+    color: var(--bluecolor);
+}
+.navigationcontact {
+    color: var(--navcontactcolor);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contactaddress {
+    color: var(--whitecolor);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.contactfooter {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.titletextheader {
+    color: var(--whitecolor);
+}
+.titlenone {
+    color: rgba(0, 0, 0, 0);
+}
+.secondtitle {
+    color: var(--maincolor);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.ourteam {
+    background-color: var(--backgroundcolorlight);
+}
+.features {
+    color: var(--maincolor);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.workers {
+    color: var(--maincolor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+}
+.position {
+    color: var(--navcontactcolor);
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+}
+.text {
+    color: var(--navcontactcolor);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.projectname {
+    color: var(--maincolor);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.projecttype {
+    color: var(--navcontactcolor);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+.markernone {
+    list-style-type: none;
 }
