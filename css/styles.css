@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--maincolor);
 }
-.maintitle {
+.main-title {
     font-family: 'Raleway', sans-serif;
     color: var(--bluecolor);
     text-decoration: none;
@@ -19,7 +19,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.buttonmain {
+.main-button {
     cursor: pointer;
     background: var(--bluecolor);
     color: var(--whitecolor);
@@ -35,7 +35,7 @@ body {
 .hero {
     background: var(--backgroundcolordark);
 }
-.herotitle {
+.hero-title {
     color: var(--whitecolor);
     text-align: center;
     font-weight: 900;
@@ -43,7 +43,7 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
 }
-.filtrbutton {
+.filtr-button {
     cursor: pointer;
     background-color: #f5f4fa;
     color: var(--maincolor);
@@ -55,25 +55,25 @@ body {
     border-color: #ffffff;
     border-style: hidden;
 }
-.filtrbutton:hover, .filtrbutton:focus {
+.filtr-button:hover, .filtr-button:focus {
     cursor: pointer;
     background-color: var(--bluecolor);
     color: var(--whitecolor); 
 }
-.titletextcolor {
+.title-textcolor {
     color: var(--maincolor);
 }
-.navigationlink {
+.navigation-link {
     color: var(--maincolor);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
-.navigationlink:hover, .navigationlink:focus, .navigationcontact:hover, .navigationcontact:focus {
+.navigation-link:hover, .navigation-link:focus, .navigation-contact:hover, .navigation-contact:focus {
     color: var(--bluecolor);
 }
-.navigationcontact {
+.navigation-contact {
     color: var(--navcontactcolor);
     text-decoration: none;
     font-weight: 500;
@@ -81,7 +81,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.contactaddress {
+.contact-address {
     color: var(--whitecolor);
     text-decoration: none;
     font-style: normal;
@@ -89,7 +89,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.contactfooter {
+.contact-footer {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
@@ -97,20 +97,29 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.titletextheader {
+.title-textheader {
     color: var(--whitecolor);
 }
-.titlenone {
-    color: rgba(0, 0, 0, 0);
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-.secondtitle {
+.second-title {
     color: var(--maincolor);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
 }
-.ourteam {
+.team {
     background-color: var(--backgroundcolorlight);
 }
 .features {
@@ -131,7 +140,7 @@ body {
 .position {
     color: var(--navcontactcolor);
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .text {
@@ -140,19 +149,19 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.projectname {
+.project-name {
     color: var(--maincolor);
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
 }
-.projecttype {
+.project-type {
     color: var(--navcontactcolor);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
-.markernone {
+.marker-none {
     list-style-type: none;
 }
